@@ -1663,7 +1663,7 @@ class TurtleWindow(object):
         self._screen.exitonclick()
 
         # We may need the statement:
-        #   turtle.TurtleScreen._RUNNING = True
+        turtle.TurtleScreen._RUNNING = True
         # in case we open a subsequent TurtleWindow during this run.
         # The  turtle  library seems not to allow for that possibility
         # (it uses a CLASS variable _RUNNING where I would have expected
