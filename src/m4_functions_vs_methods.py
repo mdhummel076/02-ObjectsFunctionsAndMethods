@@ -205,6 +205,11 @@ def try_methods_and_functions():
     for n in range(10):
         turtle3.draw_square(50)
         turtle3.left(15)
+    turtle3.speed = 100
+    turtle3.pen.thickness = 35
+    for n in range(8):
+        turtle3.draw_square(300)
+        turtle3.left(60)
     turtle3.pen = rg.Pen('black',3)
     turtle3.backward(200)
     turtle3.draw_circle(30)
